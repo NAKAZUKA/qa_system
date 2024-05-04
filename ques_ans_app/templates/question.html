@@ -10,7 +10,7 @@
       <h5 class="card-title">{{ question.question_text }}</h5>
     </div>
     <div class="card-body">
-      <form method="post" action="{% url 'ques_ans_app:question' question_id=question.id %}">
+      <form method="post">
         {% csrf_token %}
         {% for choice in question.choice_set.all %}
           <div class="form-check">

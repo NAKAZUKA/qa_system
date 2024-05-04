@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Question(models.Model):
@@ -19,3 +20,19 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+
+class UserResponse(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    choice = models.ForeignKey('Choice', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.user.username}'s response: {self.choice.choice_text}"
+
+
+class TestResult(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    responses = models.ManyToManyField(UserResponse)
+
+    def __str__(self):
+        return f"Test result for {self.user.username}"

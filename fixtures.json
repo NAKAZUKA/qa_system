@@ -1,0 +1,580 @@
+[
+{
+  "model": "ques_ans_app.question",
+  "pk": 1,
+  "fields": {
+    "question_text": "В каком формате вы работаете"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 2,
+  "fields": {
+    "question_text": "Как вы осуществляете продажу"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 3,
+  "fields": {
+    "question_text": "В каком форме услуги"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 4,
+  "fields": {
+    "question_text": "Какой у вас бизнес"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 5,
+  "fields": {
+    "question_text": "Ваше территориальное положение"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 6,
+  "fields": {
+    "question_text": "С какими сервисами вы работаете"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 7,
+  "fields": {
+    "question_text": "Сколько сотрудников у вас направлено на доставку"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 8,
+  "fields": {
+    "question_text": "ваше территориальное положение"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 9,
+  "fields": {
+    "question_text": "Какая площадь вашего зала для посетителей"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 10,
+  "fields": {
+    "question_text": "у вас штат сотрудников?"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 11,
+  "fields": {
+    "question_text": "Какая сфера"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 12,
+  "fields": {
+    "question_text": "К вам приходят люди"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 13,
+  "fields": {
+    "question_text": "Работник по найму"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 14,
+  "fields": {
+    "question_text": "какая платформа"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 15,
+  "fields": {
+    "question_text": "какой трафик у вас на сайте"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 16,
+  "fields": {
+    "question_text": "где вы работаете"
+  }
+},
+{
+  "model": "ques_ans_app.question",
+  "pk": 17,
+  "fields": {
+    "question_text": "у вас сеть магазинов?"
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 1,
+  "fields": {
+    "question": 1,
+    "choice_text": "На вынос",
+    "next_question": 5
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 2,
+  "fields": {
+    "question": 1,
+    "choice_text": "Доставка",
+    "next_question": 7
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 3,
+  "fields": {
+    "question": 1,
+    "choice_text": "В заведении",
+    "next_question": 9
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 4,
+  "fields": {
+    "question": 2,
+    "choice_text": "На маркетплейсе",
+    "next_question": 14
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 5,
+  "fields": {
+    "question": 2,
+    "choice_text": "Свой сайт",
+    "next_question": 15
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 6,
+  "fields": {
+    "question": 2,
+    "choice_text": "В переходе вместе с бабушками",
+    "next_question": 16
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 7,
+  "fields": {
+    "question": 2,
+    "choice_text": "Свой магазин",
+    "next_question": 17
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 8,
+  "fields": {
+    "question": 3,
+    "choice_text": "По вызову",
+    "next_question": 13
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 9,
+  "fields": {
+    "question": 3,
+    "choice_text": "Дома",
+    "next_question": 12
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 10,
+  "fields": {
+    "question": 3,
+    "choice_text": "Онлайн",
+    "next_question": 11
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 11,
+  "fields": {
+    "question": 3,
+    "choice_text": "Из офиса",
+    "next_question": 10
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 12,
+  "fields": {
+    "question": 4,
+    "choice_text": "Общепит",
+    "next_question": 1
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 13,
+  "fields": {
+    "question": 4,
+    "choice_text": "Ретейл",
+    "next_question": 2
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 14,
+  "fields": {
+    "question": 4,
+    "choice_text": "Услуги",
+    "next_question": 3
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 15,
+  "fields": {
+    "question": 5,
+    "choice_text": "Пригород",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 16,
+  "fields": {
+    "question": 5,
+    "choice_text": "Центр",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 17,
+  "fields": {
+    "question": 5,
+    "choice_text": "Среднее положение",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 18,
+  "fields": {
+    "question": 6,
+    "choice_text": "доставка такси",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 19,
+  "fields": {
+    "question": 6,
+    "choice_text": "деливери/яндекс",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 20,
+  "fields": {
+    "question": 6,
+    "choice_text": "по почте",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 21,
+  "fields": {
+    "question": 7,
+    "choice_text": "меньше 5",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 22,
+  "fields": {
+    "question": 7,
+    "choice_text": "больше 5",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 23,
+  "fields": {
+    "question": 7,
+    "choice_text": "сторонние сервисы",
+    "next_question": 6
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 24,
+  "fields": {
+    "question": 8,
+    "choice_text": "набережная",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 25,
+  "fields": {
+    "question": 8,
+    "choice_text": "центр города",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 26,
+  "fields": {
+    "question": 8,
+    "choice_text": "бизнес район",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 27,
+  "fields": {
+    "question": 9,
+    "choice_text": "меньше 20",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 28,
+  "fields": {
+    "question": 9,
+    "choice_text": "больше 20",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 29,
+  "fields": {
+    "question": 9,
+    "choice_text": "на улице",
+    "next_question": 8
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 30,
+  "fields": {
+    "question": 10,
+    "choice_text": "есть",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 31,
+  "fields": {
+    "question": 10,
+    "choice_text": "нет, работаю сам",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 32,
+  "fields": {
+    "question": 11,
+    "choice_text": "фриланс",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 33,
+  "fields": {
+    "question": 11,
+    "choice_text": "самоделкин",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 34,
+  "fields": {
+    "question": 11,
+    "choice_text": "преподавание",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 35,
+  "fields": {
+    "question": 12,
+    "choice_text": "да",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 36,
+  "fields": {
+    "question": 12,
+    "choice_text": "нет",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 37,
+  "fields": {
+    "question": 13,
+    "choice_text": "нет",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 38,
+  "fields": {
+    "question": 13,
+    "choice_text": "да",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 39,
+  "fields": {
+    "question": 14,
+    "choice_text": "яндекс маркет",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 40,
+  "fields": {
+    "question": 14,
+    "choice_text": "мегамаркет",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 41,
+  "fields": {
+    "question": 14,
+    "choice_text": "ваилдберис",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 42,
+  "fields": {
+    "question": 14,
+    "choice_text": "озон",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 43,
+  "fields": {
+    "question": 15,
+    "choice_text": "меньше 1000",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 44,
+  "fields": {
+    "question": 15,
+    "choice_text": "больше 1000",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 45,
+  "fields": {
+    "question": 15,
+    "choice_text": "почти нулево",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 46,
+  "fields": {
+    "question": 16,
+    "choice_text": "в центре",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 47,
+  "fields": {
+    "question": 16,
+    "choice_text": "в бизнес районе",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 48,
+  "fields": {
+    "question": 16,
+    "choice_text": "в спальном районе",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 49,
+  "fields": {
+    "question": 16,
+    "choice_text": "в пригороде",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 50,
+  "fields": {
+    "question": 17,
+    "choice_text": "да",
+    "next_question": null
+  }
+},
+{
+  "model": "ques_ans_app.choice",
+  "pk": 51,
+  "fields": {
+    "question": 17,
+    "choice_text": "нет",
+    "next_question": null
+  }
+}
+]
