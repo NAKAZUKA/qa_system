@@ -38,3 +38,6 @@
 
 - **backend** - написан на python django framework
 - **frontend** - использовался html и немного элементов js, стили взяты с bootstrap4
+
+
+## Проблемы 
