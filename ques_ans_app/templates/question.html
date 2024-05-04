@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Question
+{% endblock %}
+
+{% block content %}
+  <div class="card">
+    <div class="card-header">
+      <h5 class="card-title">{{ question.question_text }}</h5>
+    </div>
+    <div class="card-body">
+      <form method="post" action="{% url 'ques_ans_app:question' question_id=question.id %}">
+        {% csrf_token %}
+        {% for choice in question.choice_set.all %}
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="choice" id="choice{{ choice.id }}" value="{{ choice.id }}">
+            <label class="form-check-label" for="choice{{ choice.id }}">
+              {{ choice.choice_text }}
+            </label>
+          </div>
+        {% endfor %}
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

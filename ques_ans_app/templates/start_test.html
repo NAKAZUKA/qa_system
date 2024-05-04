@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Start Test
+{% endblock %}
+
+{% block content %}
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to the Test!</h1>
+    <p class="lead">Click the button below to start the test.</p>
+    <a class="btn btn-primary btn-lg" href="{% url 'ques_ans_app:question' question_id=first_question.id %}" role="button">Start Test</a>
+  </div>
+{% endblock %}
